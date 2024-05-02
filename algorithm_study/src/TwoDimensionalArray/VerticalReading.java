@@ -29,8 +29,8 @@ public class VerticalReading {
 
         for (int j = 0; j < maxLength; j++) {
             for (int i = 0; i < 5; i++) {
-                if (j < lengths[i]) { // 현재 열이 해당 행의 문자열 길이 내에 있으면
-                    result.append(array[i][j]); // 해당 문자 추가
+                if (j < lengths[i]) {
+                    result.append(array[i][j]);
                 }
             }
         }

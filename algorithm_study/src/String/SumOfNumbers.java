@@ -6,10 +6,8 @@ public class SumOfNumbers {
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
-        System.out.print("numbers of numbers: ");
         int numbersOfNumbers = input.nextInt();
 
-        System.out.print("enter numbers: ");
         String numbers = input.next();
 
         String[] numberArray = new String[numbersOfNumbers];
@@ -26,6 +24,6 @@ public class SumOfNumbers {
             sum += number[i];
         }
 
-        System.out.println("sum of numbers: " + sum);
+        System.out.println(sum);
     }
 }

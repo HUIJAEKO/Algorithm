@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class stars {
     public static void main(String[] args){
         int num;
-        System.out.print("enter the number: ");
         Scanner input = new Scanner(System.in);
         num = input.nextInt();
 
@@ -31,7 +30,9 @@ public class stars {
             for(int j=num-1-i; j>0; j--){
                 System.out.print("*");
             }
-            System.out.println();
+            if (i != num-1) {
+                System.out.println();
+            }
         }
     }
 }

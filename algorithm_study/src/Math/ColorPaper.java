@@ -7,7 +7,8 @@ public class ColorPaper {
         Scanner input = new Scanner(System.in);
         int num = input.nextInt();
         int[][] arr = new int[num][2];
-        int area = 100*num;
+        int[][] area = new int[100][100];
+        int total = 0;
 
         for(int i=0; i<num; i++){
             for(int j=0; j<2; j++){
@@ -15,33 +16,22 @@ public class ColorPaper {
             }
         }
 
-        for(int i=0; i<num-1; i++) {
-            int x1 = arr[i][0];
-            int y1 = arr[i][1];
-            int x2 = arr[i+1][0];
-            int y2 = arr[i+1][1];
-            int dupX, dupY;
-
-            if(x1>=x2){
-                if(y1>=y2){
-                    dupX = x2+10-x1;
-                    dupY = y2+10-y1;
-                }else{
-                    dupX = x2+10-x1;
-                    dupY = y1+10-y2;
-                }
-            }else{
-                if(y1>=y2){
-                    dupX = x1+10-x2;
-                    dupY = y2+10-y1;
-                }else{
-                    dupX = x1+10-x2;
-                    dupY = y1+10-y2;
+        for(int i=0; i<num; i++) {
+            for(int j=arr[i][0]; j<arr[i][0]+10; j++){
+                for(int k=arr[i][1]; k<arr[i][1]+10; k++){
+                    area[j][k] = 1;
                 }
             }
-
-            area -= dupX * dupY;
         }
-        System.out.println(area);
+
+        for(int i=0; i<100; i++){
+            for(int j=0; j<100; j++){
+                if(area[i][j] == 1){
+                    total++;
+                }
+            }
+        }
+
+        System.out.println(total);
     }
 }

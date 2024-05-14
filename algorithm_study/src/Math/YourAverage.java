@@ -29,27 +29,28 @@ public class YourAverage {
             }
         }
 
-        for(int i=0; i<20; i++){
-            if(score[i].equals("A+")){
-                totalscore = totalscore + (num[i] * 4.5);
-            }else if(score[i].equals("A0")){
-                totalscore = totalscore + (num[i] * 4.0);
-            }else if(score[i].equals("B+")){
-                totalscore = totalscore + (num[i] * 3.5);
-            }else if(score[i].equals("B0")){
-                totalscore = totalscore + (num[i] * 3.0);
-            }else if(score[i].equals("C+")){
-                totalscore = totalscore + (num[i] * 2.5);
-            }else if(score[i].equals("C0")){
-                totalscore = totalscore + (num[i] * 2.0);
-            }else if(score[i].equals("D+")){
-                totalscore = totalscore + (num[i] * 1.5);
-            }else if(score[i].equals("D0")){
-                totalscore = totalscore + (num[i]);
-            }else if(score[i].equals("F")){
-                totalscore = totalscore + (num[i] * 0);
-            }else{
-                continue;
+        for (int i = 0; i < 20; i++) {
+            switch (score[i]) {
+                case "A+": totalscore += num[i] * 4.5;
+                            break;
+                case "A0": totalscore += num[i] * 4.0;
+                            break;
+                case "B+": totalscore += num[i] * 3.5;
+                            break;
+                case "B0": totalscore += num[i] * 3.0;
+                            break;
+                case "C+": totalscore += num[i] * 2.5;
+                            break;
+                case "C0": totalscore += num[i] * 2.0;
+                            break;
+                case "D+": totalscore += num[i] * 1.5;
+                            break;
+                case "D0": totalscore += num[i];
+                            break;
+                case "F": totalscore += num[i] * 0;
+                            break;
+                default:
+                            break;
             }
         }
 

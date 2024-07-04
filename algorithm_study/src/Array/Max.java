@@ -2,6 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
+//백준2562
 public class Max {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

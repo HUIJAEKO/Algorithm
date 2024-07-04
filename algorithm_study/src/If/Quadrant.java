@@ -2,6 +2,7 @@ package If;
 
 import java.util.Scanner;
 
+//백준14681
 public class Quadrant {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

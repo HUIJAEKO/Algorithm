@@ -2,6 +2,7 @@ package Math;
 
 import java.util.Scanner;
 
+//백준2444
 public class stars {
     public static void main(String[] args){
         int num;

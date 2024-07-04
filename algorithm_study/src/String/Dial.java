@@ -2,6 +2,7 @@ package String;
 
 import java.util.Scanner;
 
+//백준5622
 public class Dial {
     public static void main(String[] args){
 

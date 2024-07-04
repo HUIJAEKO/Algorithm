@@ -2,6 +2,7 @@ package Math;
 
 import java.util.Scanner;
 
+//백준2581
 public class Prime2 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

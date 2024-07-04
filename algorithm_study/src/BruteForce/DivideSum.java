@@ -2,6 +2,7 @@ package BruteForce;
 
 import java.util.Scanner;
 
+//백준2231
 public class DivideSum {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

@@ -2,6 +2,7 @@ package Math;
 
 import java.util.Scanner;
 
+//백준2869
 public class Snail {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

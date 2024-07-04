@@ -2,6 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
+//백준10818
 public class MaxMin {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

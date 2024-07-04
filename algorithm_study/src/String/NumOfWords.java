@@ -2,6 +2,7 @@ package String;
 
 import java.util.Scanner;
 
+//백준1152
 public class NumOfWords {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

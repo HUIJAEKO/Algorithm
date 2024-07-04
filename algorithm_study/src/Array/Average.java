@@ -3,6 +3,7 @@ package Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//백준1546
 public class Average {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

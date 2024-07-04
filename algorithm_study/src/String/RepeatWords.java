@@ -2,6 +2,7 @@ package String;
 
 import java.util.Scanner;
 
+//백준2576
 public class RepeatWords {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

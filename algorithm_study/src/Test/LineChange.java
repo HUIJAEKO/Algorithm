@@ -2,6 +2,7 @@ package Test;
 
 import java.util.Scanner;
 
+//알고리즘책
 public class LineChange {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

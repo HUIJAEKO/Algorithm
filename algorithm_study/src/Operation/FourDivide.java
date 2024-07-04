@@ -2,6 +2,7 @@ package Operation;
 
 import java.util.Scanner;
 
+//백준10430
 public class FourDivide {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

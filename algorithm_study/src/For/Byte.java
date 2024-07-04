@@ -2,6 +2,7 @@ package For;
 
 import java.util.Scanner;
 
+//백준25314
 public class Byte {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

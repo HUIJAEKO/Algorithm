@@ -2,6 +2,7 @@ package Math;
 
 import java.util.Scanner;
 
+//백준25206
 public class YourAverage {
     public static void main(String[] args){
 

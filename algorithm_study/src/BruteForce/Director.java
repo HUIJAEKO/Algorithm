@@ -2,6 +2,7 @@ package BruteForce;
 
 import java.util.Scanner;
 
+//백준1436
 public class Director {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

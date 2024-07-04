@@ -2,6 +2,7 @@ package Operation;
 
 import java.util.Scanner;
 
+//백준10869
 public class All {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

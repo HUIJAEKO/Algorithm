@@ -2,6 +2,7 @@ package If;
 
 import java.util.Scanner;
 
+//백준9498
 public class TestGrade {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

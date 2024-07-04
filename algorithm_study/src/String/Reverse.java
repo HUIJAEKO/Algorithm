@@ -2,6 +2,7 @@ package String;
 
 import java.util.Scanner;
 
+//백준2908
 public class Reverse {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

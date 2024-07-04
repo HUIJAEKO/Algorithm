@@ -2,6 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
+//백준10807
 public class FindV {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

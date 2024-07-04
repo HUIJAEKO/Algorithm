@@ -2,6 +2,7 @@ package String;
 
 import java.util.Scanner;
 
+//백준1316
 public class GroupWord {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

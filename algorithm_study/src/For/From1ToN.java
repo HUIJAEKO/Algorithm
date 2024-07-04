@@ -2,6 +2,7 @@ package For;
 
 import java.util.Scanner;
 
+//백준8393
 public class From1ToN {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

@@ -3,6 +3,7 @@ package Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//백준3052
 public class Reminder {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

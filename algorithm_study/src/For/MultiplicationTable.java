@@ -2,6 +2,7 @@ package For;
 
 import java.util.Scanner;
 
+//백준2739
 public class MultiplicationTable {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

@@ -2,6 +2,7 @@ package For;
 
 import java.util.Scanner;
 
+//백준2438
 public class Star1 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

@@ -2,6 +2,7 @@ package For;
 
 import java.util.Scanner;
 
+//백준10950
 public class PlusOutput {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

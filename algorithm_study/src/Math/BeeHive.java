@@ -2,6 +2,7 @@ package Math;
 
 import java.util.Scanner;
 
+//백준2292
 public class BeeHive {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

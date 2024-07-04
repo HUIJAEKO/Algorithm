@@ -2,6 +2,7 @@ package String;
 
 import java.util.Scanner;
 
+//백준11720
 public class SumOfNumbers {
     public static void main(String[] args){
 

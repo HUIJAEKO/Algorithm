@@ -3,6 +3,7 @@ package If;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//백준2480
 public class ThreeDices {
     public static void main(String[] main){
         Scanner input = new Scanner(System.in);

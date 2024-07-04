@@ -2,6 +2,7 @@ package Operation;
 
 import java.util.Scanner;
 
+//백준1000
 public class Plus {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

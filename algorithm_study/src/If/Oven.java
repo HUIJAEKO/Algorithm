@@ -2,6 +2,7 @@ package If;
 
 import java.util.Scanner;
 
+//백준2525
 public class Oven {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

@@ -2,6 +2,7 @@ package TwoDimensionalArray;
 
 import java.util.Scanner;
 
+//백준10798
 public class VerticalReading {
     public static void main(String[] args){
         char[][] array = new char[5][15];

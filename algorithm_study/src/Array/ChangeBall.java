@@ -2,6 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
+//백준10831
 public class ChangeBall {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);

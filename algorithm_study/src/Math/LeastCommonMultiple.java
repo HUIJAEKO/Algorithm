@@ -2,6 +2,7 @@ package Math;
 
 import java.util.Scanner;
 
+//백준1934
 public class LeastCommonMultiple {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
